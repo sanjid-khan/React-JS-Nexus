@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.images{
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+.option{
+    padding-top: 30px;
+}
+
+.but , .pro{
+    margin-right: 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.searchbar{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.Profile{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.middle{
+    background-color: rgb(246,246,241);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(11, 98, 11);
+}
+
+button{
+     height: 50px;
+     background-color: orange;
+}
+
+
+/* ===== Button Group ===== */
+button {
+  background: linear-gradient(135deg, #ff9800, #ffb74d);
+  border: none;
+  padding: 10px 18px;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #ffb74d, #ff9800);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* ===== Search Input ===== */
+input[type="text"] {
+  padding: 10px 14px;
+  width: 220px;
+  border-radius: 25px;
+  border: 2px solid #ff9800;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+input[type="text"]::placeholder {
+  color: #999;
+}
+
+input[type="text"]:focus {
+  border-color: #ff6f00;
+  box-shadow: 0 0 8px rgba(255, 152, 0, 0.5);
+}
+
+/* ===== Filter Section Spacing ===== */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  flex-wrap: wrap;
+}
