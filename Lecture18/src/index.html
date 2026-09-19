@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+
+       <!-- <h1 class="bg-red-300 text-gray-700 border-2 border-pink-400">Hello Coder Army</h1>
+     <br>
+
+     <h2 class="border-t-1 border-blue-400">I am best in the world</h2>
+
+      <br>
+
+    <button class="bg-sky-500  rounded py-1 mx-2">Click me </button>  
+
+  
+      <h1 class="bg-amber-400 border-b-4 p-2 mt-2">I want to be a good Engineer</h1>
+
+     <h2 class="bg-sky-600 font-bold mt-3 p-1 text-xl">WEB DEV & GEN AI </h2> 
+
+     <h2 class=" bg-red-500 mt-2 p-1 rounded-xl flex ">Rohit Negi sir is my best teacher</h2>  -->
+
+     
+
+      ================= HEADER =================
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-600 shadow sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+
+      <!-- Logo -->
+      <h1 class="text-2xl font-bold text-white">
+        DevHero
+      </h1>
+
+      <!-- Menu -->
+      <nav class="space-x-6 hidden md:block">
+        <a href="#" class="text-white/80 hover:text-white">Home</a>
+        <a href="#" class="text-white/80 hover:text-white">About</a>
+        <a href="#" class="text-white/80 hover:text-white">Services</a>
+        <a href="#" class="text-white/80 hover:text-white">Contact</a>
+      </nav>
+
+      <!-- Button -->
+      <button class="hidden md:block px-4 py-2 bg-white text-blue-600 rounded-lg hover:bg-gray-100">
+        Login
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="relative overflow-hidden min-h-[calc(100vh-80px)] flex items-center bg-gradient-to-br from-blue-50 to-indigo-100">
+
+    <!-- background blur shape -->
+    <div class="absolute -top-20 -right-20 w-96 h-96 bg-blue-400/30 rounded-full blur-3xl"></div>
+
+    <div class="container mx-auto px-6 relative z-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+        <!-- Left Content -->
+        <div>
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-800">
+            Learn Web Development <br>
+            <span class="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+              With Tailwind CSS
+            </span>
+          </h2>
+
+          <p class="mt-4 text-gray-600">
+            Build responsive, modern websites faster using Tailwind CSS and modern tools.
+          </p>
+
+          <div class="mt-6 space-x-4">
+            <button class="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg hover:scale-105 transition">
+              Get Started
+            </button>
+            <button class="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition">
+              Learn More
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="flex justify-center">
+          <img src="https://illustrations.popsy.co/gray/web-design.svg" class="w-80 md:w-96">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CARDS SECTION ================= -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+
+      <!-- Section Title -->
+      <div class="text-center mb-12">
+        <h3 class="text-3xl font-bold text-gray-800">
+          Why Choose Us
+        </h3>
+        <p class="mt-2 text-gray-500">
+          We provide best learning experience for developers
+        </p>
+      </div>
+
+      <!-- Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Card 1 -->
+        <div class="group bg-white p-8 rounded-2xl border hover:border-blue-500 shadow hover:-translate-y-2 transition">
+          <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-blue-100 text-blue-600 text-2xl mb-4 group-hover:bg-blue-600 group-hover:text-white transition">
+            🚀
+          </div>
+          <h4 class="text-xl font-semibold text-gray-800">Fast Learning</h4>
+          <p class="mt-2 text-gray-600">
+            Learn web development quickly with structured roadmap.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="group bg-white p-8 rounded-2xl border hover:border-indigo-500 shadow hover:-translate-y-2 transition">
+          <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-indigo-100 text-indigo-600 text-2xl mb-4 group-hover:bg-indigo-600 group-hover:text-white transition">
+            💻
+          </div>
+          <h4 class="text-xl font-semibold text-gray-800">Real Projects</h4>
+          <p class="mt-2 text-gray-600">
+            Build real-world projects to strengthen your skills.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="group bg-white p-8 rounded-2xl border hover:border-purple-500 shadow hover:-translate-y-2 transition">
+          <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-purple-100 text-purple-600 text-2xl mb-4 group-hover:bg-purple-600 group-hover:text-white transition">
+            🎯
+          </div>
+          <h4 class="text-xl font-semibold text-gray-800">Career Focused</h4>
+          <p class="mt-2 text-gray-600">
+            Prepare yourself for jobs with modern tech stack.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+   
+
+    <div id="root"></div>
+    <!-- <script src="./first.js" type="module"></script> -->
+
+  </body>
+</html>
